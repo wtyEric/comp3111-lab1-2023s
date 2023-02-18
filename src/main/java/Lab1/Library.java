@@ -6,7 +6,9 @@ package Lab1;
 public class Library {
 	
 	public static void main(String arg[]) {
-		System.out.println("Helllo,World!");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("Helllo,World!");
 	}
 	
 	
